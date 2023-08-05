@@ -1,0 +1,75 @@
+#f{
+    background-color: rgb(71, 134, 185);
+    margin-left: 20%;
+    margin-right: 30%;
+}
+#t{
+    width: 20;
+}
+#head{
+    text-align: center;
+    color: white;
+}
+#whi{
+    background-color: white;
+    margin-top: 0%;
+}
+#in{
+    border-radius: 20px;
+}
+table,
+tr,
+td{margin-right: 0%;
+padding: 10px;
+}
+#yes{
+    padding: 0%;
+    margin: 0 0;
+}
+
+#image{
+   margin-top: 10%;
+    margin-left:30%;
+    padding: 0%;
+}
+#form{
+    margin-left: 30%;
+    margin-right: 30%;
+    }
+#gre{
+    background-color: green;
+    height: 12cm;
+
+}
+#s{
+    font-size: xx-large;
+    text-align: center;
+    color: white;
+}
+#suc{
+  margin-left: 25%;
+    font-size: x-large;
+    text-align: center;  
+    padding-top: 10%;
+    padding-right: 20%;
+}
+#suc1{
+    margin-left: 25%;
+    margin-top: 10%;
+    size: 100%;
+    width: 50%;
+    height: 1cm;
+    font-style: normal;
+    border-style: solid;
+    color: white;
+    background-color: green;
+}
+#up{
+    margin-left: 35%;
+    background-color: white;
+    height: 100%;
+    width: 50%;
+    border-radius: 20px;
+    border-color: blue;
+    box-shadow: 10px;
+}
