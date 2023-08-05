@@ -1,5 +1,5 @@
 #f{
-    background-color: rgb(71, 134, 185);
+    background-color: red;
     margin-left: 20%;
     margin-right: 30%;
 }
@@ -16,6 +16,11 @@
 }
 #in{
     border-radius: 20px;
+}
+#small{
+    font-size: large;
+    color: black;
+    margin-top: 20px;
 }
 table,
 tr,
@@ -41,10 +46,75 @@ padding: 10px;
     height: 12cm;
 
 }
+grid3{
+    display: grid;
+    grid-template-columns: auto auto;
+    background-color: white;
+}
+#ll{
+    text-align: center;
+    font-size: x-large;
+    width: 250px;
+    float: left;
+    padding-right: 30%;
+}
+h7{
+    font-size: large;
+}
+#wh{
+    color: white;
+    font-size: x-large;
+}
+#m{
+    background-color: red;
+    padding-bottom: 5cm;
+    text-align: center;
+    grid-column: 1 /span 2;
+}
+
+img{
+    padding-right: 20px;
+}
+ul{
+    list-style-type: none;
+}
+li{
+    padding-top: 20px;
+    font-size: larger;
+}
 #s{
     font-size: xx-large;
     text-align: center;
     color: white;
+}
+/* #try{
+    grid-column: 3 /span 2;
+
+} */
+#k{
+    font-size: xx-large;
+}
+.grid-container{
+    display: grid;
+    grid-template-columns: 20% 80%;
+}
+#add{
+    height: 50px;
+    width: 100px;
+    margin-right: 0;
+    background-color: red;
+    margin-top: 7%;
+    color: white;
+    margin-left: 20%;
+}
+#reem{
+    border-radius: 800px;
+    padding: 0;
+}
+.grid2{
+    display: grid;
+    grid-template-columns: 30% 70% ;
+    grid-template-rows: auto auto auto;
 }
 #suc{
   margin-left: 25%;
@@ -70,6 +140,6 @@ padding: 10px;
     height: 100%;
     width: 50%;
     border-radius: 20px;
-    border-color: blue;
+    border-color: white;
     box-shadow: 10px;
 }

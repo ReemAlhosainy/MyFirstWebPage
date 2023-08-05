@@ -1,11 +1,12 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
+        <link rel="stylesheet" href="session2.css">
         <title>
             My Channel
         </title>
         <style>
-            body{background-color: aquamarine;}
+            body{background-color: white;}
             h1{text-align: center;}
             h2{text-align: center;}
             a{text-align: center;}
@@ -13,14 +14,43 @@
         </style>
     </head>
     <body>
-        <h1>Hello! This is my first web page</h1>
-        <h2>I hope it will be interesting</h2>
-        <table align="center">
+
+        <div class="grid-container">
+            <nav>
+             <ul>
+                 <li ><img  src="https://static.vecteezy.com/system/resources/previews/000/449/897/original/home-vector-icon.jpg" height="15" width="15"> Home </li>
+                 <li><img  src="https://th.bing.com/th?id=OIP.7yr0ng3oUaMQ1xreaPaZCAHaHa&w=250&h=250&c=8&rs=1&qlt=90&o=6&dpr=1.3&pid=3.1&rm=2" height="15" width="15">Shorts </li>
+                 <li><img  src="data:image/jpeg;base64,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" height="15" width="15">Subscriptions </li>
+                 <li><img  src="https://th.bing.com/th?id=OIP._j_kX1Wt_O3jDBfTg3ux4wAAAA&w=250&h=250&c=8&rs=1&qlt=90&o=6&dpr=1.3&pid=3.1&rm=2" height="15" width="15">library </li>
+                 <li><img  src=" https://th.bing.com/th?id=OIP.aw5nAjbwrc3sMN7uNtcVqAHaHa&w=250&h=250&c=8&rs=1&qlt=90&o=6&dpr=1.3&pid=3.1&rm=2" height="15" width="15">your videos </li>
+                 <li><img  src="https://th.bing.com/th/id/OIP.ynzgmttocWmijPKeAQ2L6gHaHe?w=159&h=180&c=7&r=0&o=5&dpr=1.3&pid=1.7" height="15" width="15">Watch Later </li>
+                 <li><img  src=" https://th.bing.com/th/id/OIP.BZDN5jtCETHvCmYtgEV8eAHaHa?w=204&h=204&c=7&r=0&o=5&dpr=1.3&pid=1.7" height="15" width="15">Downloads </li>
+                 <li><img  src=" https://th.bing.com/th?id=OIP.Nq1OuYQQwf15aDdAu8KleQHaFu&w=284&h=219&c=8&rs=1&qlt=90&o=6&dpr=1.3&pid=3.1&rm=2" height="15" width="15">Liked Videos </li>
+
+                </ul>
+         </nav>
+        <div  class="grid2">
+         <header id="m"  > <h5 id="wh">BECOME THE BEST CODER YOU CAN BE</h5>
+            
+          <h7> C C++ C#</h7>  </header>
+            <div>
+                <img id="reem" src="reem.jpg"height="150" width="150"></div> <div id="try">
+                <p id="ll">Programming with Reem 
+                 1M subscribers <br> 1000 videos
+                 <br> I train embedded system engineers</p>
+                <button id="add">add</button></div>
+         <table align="center">
             <tr> <td colspan="3">C# playlist</td> </tr>
             <tr>
                 <td>                <iframe width="200px" height="200px" src="https://www.youtube.com/embed/P1j1PI0YL-M" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
                 </td>
                 <td><iframe width="200px" height="200px" src="https://www.youtube.com/embed/GkmlPDc_5Dc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></td>
+                <td>
+                    <iframe width="200px" height="200px" src="https://www.youtube.com/embed/pkQHHS3XAa8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                </td>
+                <td>
+                    <iframe width="200px" height="200px" src="https://www.youtube.com/embed/pkQHHS3XAa8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                </td>
                 <td>
                     <iframe width="200px" height="200px" src="https://www.youtube.com/embed/pkQHHS3XAa8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
                 </td>
@@ -32,10 +62,16 @@
                 </td>
                 <td><iframe width="200px" height="200px" src="https://www.youtube.com/embed/IFa8M0Oi3AU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></td>
                 <td><iframe width="200px" height="200px" src="https://www.youtube.com/embed/muLh7SHMBIU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></td>
+                <td><iframe width="200px" height="200px" src="https://www.youtube.com/embed/muLh7SHMBIU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></td>
+
+                <td><iframe width="200px" height="200px" src="https://www.youtube.com/embed/muLh7SHMBIU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></td>
+
             </tr>
             <tr> <td  colspan="3"> <a href="https://youtu.be/sO-SvZ0XQcg/" target="_blank">More</a></td> </tr>
             <tr><td colspan="3"><a href="file:///E:/itisummer%20trainingIOT/Codes/MyFirstWebPage/session2form2.html" target="_blank">Upload a Video</a></td></tr>
         </table>
-
+    </div>
+           </div>
+  
     </body>
 </html>
